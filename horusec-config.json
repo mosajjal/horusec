@@ -21,8 +21,7 @@
   "horusecCliEnableCommitAuthor": false,
   "horusecCliEnableGitHistoryAnalysis": false,
   "horusecCliEnableInformationSeverity": false,
-  "horusecCliFalsePositiveHashes": [
-  ],
+  "horusecCliFalsePositiveHashes": [],
   "horusecCliFilesOrPathsToIgnore": [
     "**/e2e/**",
     "**/examples/**",
@@ -33,7 +32,7 @@
     "**/cmd/app/start/analysis/**",
     "**/tmp/**",
     "**/bin/**",
-    "**/internal/services/engines/**"
+    "**/pkg/services/engines/**"
   ],
   "horusecCliHeaders": {},
   "horusecCliHorusecApiUri": "http://0.0.0.0:8000",
@@ -46,8 +45,7 @@
   "horusecCliReturnErrorIfFoundVulnerability": true,
   "horusecCliRiskAcceptHashes": [],
   "horusecCliSeveritiesToIgnore": [],
-  "horusecCliShowVulnerabilitiesTypes": [
-  ],
+  "horusecCliShowVulnerabilitiesTypes": [],
   "horusecCliTimeoutInSecondsAnalysis": 1000,
   "horusecCliTimeoutInSecondsRequest": 300,
   "horusecCliToolsConfig": {

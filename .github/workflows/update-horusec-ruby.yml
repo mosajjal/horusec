@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Set the next version. Ex: (v0.0.1)'
+        description: "Set the next version. Ex: (v0.0.1)"
         required: true
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
       - name: Cosign Installer
         uses: sigstore/cosign-installer@main
         with:
-          cosign-release: 'v1.2.0'
+          cosign-release: "v1.2.0"
 
       - name: Install cosign private key
         run: 'echo "$COSIGN_KEY" > $COSIGN_KEY_LOCATION'
@@ -53,7 +53,7 @@ jobs:
         with:
           push: true
           context: .
-          file: ./internal/services/formatters/ruby/deployments/Dockerfile
+          file: ./pkg/services/formatters/ruby/deployments/Dockerfile
           tags: |
             horuszup/horusec-ruby:${{ github.event.inputs.version }}
             horuszup/horusec-ruby:latest

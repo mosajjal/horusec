@@ -31,8 +31,8 @@ import (
 
 	"github.com/ZupIT/horusec/config"
 	"github.com/ZupIT/horusec/e2e/analysis"
-	customimages "github.com/ZupIT/horusec/internal/entities/custom_images"
-	"github.com/ZupIT/horusec/internal/utils/testutil"
+	customimages "github.com/ZupIT/horusec/pkg/entities/custom_images"
+	"github.com/ZupIT/horusec/pkg/utils/testutil"
 )
 
 const (

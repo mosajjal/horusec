@@ -27,9 +27,9 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/internal/entities/workdir"
-	"github.com/ZupIT/horusec/internal/utils/copy"
-	"github.com/ZupIT/horusec/internal/utils/testutil"
+	"github.com/ZupIT/horusec/pkg/entities/workdir"
+	"github.com/ZupIT/horusec/pkg/utils/copy"
+	"github.com/ZupIT/horusec/pkg/utils/testutil"
 )
 
 var tmpPath, _ = filepath.Abs("tmp")

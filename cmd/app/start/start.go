@@ -25,11 +25,11 @@ import (
 
 	"github.com/ZupIT/horusec/config"
 	"github.com/ZupIT/horusec/config/dist"
-	"github.com/ZupIT/horusec/internal/controllers/analyzer"
-	"github.com/ZupIT/horusec/internal/controllers/requirements"
-	"github.com/ZupIT/horusec/internal/helpers/messages"
-	usecases "github.com/ZupIT/horusec/internal/usecases/cli"
-	"github.com/ZupIT/horusec/internal/utils/prompt"
+	"github.com/ZupIT/horusec/pkg/controllers/analyzer"
+	"github.com/ZupIT/horusec/pkg/controllers/requirements"
+	"github.com/ZupIT/horusec/pkg/helpers/messages"
+	usecases "github.com/ZupIT/horusec/pkg/usecases/cli"
+	"github.com/ZupIT/horusec/pkg/utils/prompt"
 )
 
 // Analyzer is the interface that execute the analysis on some directory.

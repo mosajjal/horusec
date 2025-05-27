@@ -26,7 +26,7 @@ UPDATE_TYPE=$2
 IS_TO_UPDATE_LATEST=$3
 CURRENT_FOLDER=$(pwd)
 DIRECTORY_SEMVER=""
-DIRECTORY_IMAGE_CONFIG="$CURRENT_FOLDER/internal/enums/images/images.go"
+DIRECTORY_IMAGE_CONFIG="$CURRENT_FOLDER/pkg/enums/images/images.go"
 IMAGE_NAME=""
 ACTUAL_RELEASE_IN_CONFIG=""
 NEW_RELEASE=""
@@ -35,11 +35,11 @@ getDirectoryAndImagesNameByLanguageName() {
     case "$LANGUAGE_NAME" in
     "c")
         IMAGE_NAME="horuszup/horusec-c"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/c/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/c/deployments"
         ;;
     "csharp")
         IMAGE_NAME="horuszup/horusec-csharp"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/csharp/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/csharp/deployments"
         ;;
     "dart")
         echo "Language dart not contains image on dockerhub!"
@@ -47,19 +47,19 @@ getDirectoryAndImagesNameByLanguageName() {
         ;;
     "elixir")
         IMAGE_NAME="horuszup/horusec-elixir"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/elixir/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/elixir/deployments"
         ;;
     "generic")
         IMAGE_NAME="horuszup/horusec-generic"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/generic/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/generic/deployments"
         ;;
     "go")
         IMAGE_NAME="horuszup/horusec-go"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/go/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/go/deployments"
         ;;
     "hcl")
         IMAGE_NAME="horuszup/horusec-hcl"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/hcl/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/hcl/deployments"
         ;;
     "java")
         echo "Language java not contains image on dockerhub!"
@@ -67,7 +67,7 @@ getDirectoryAndImagesNameByLanguageName() {
         ;;
     "javascript")
         IMAGE_NAME="horuszup/horusec-js"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/javascript/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/javascript/deployments"
         ;;
     "kotlin")
         echo "Language kotlin not contains image on dockerhub!"
@@ -75,23 +75,23 @@ getDirectoryAndImagesNameByLanguageName() {
         ;;
     "leaks")
         IMAGE_NAME="horuszup/horusec-leaks"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/leaks/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/leaks/deployments"
         ;;
     "php")
         IMAGE_NAME="horuszup/horusec-php"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/php/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/php/deployments"
         ;;
     "python")
         IMAGE_NAME="horuszup/horusec-python"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/python/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/python/deployments"
         ;;
     "ruby")
         IMAGE_NAME="horuszup/horusec-ruby"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/ruby/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/ruby/deployments"
         ;;
     "shell")
         IMAGE_NAME="horuszup/horusec-shell"
-        DIRECTORY_SEMVER="$CURRENT_FOLDER/internal/services/formatters/shell/deployments"
+        DIRECTORY_SEMVER="$CURRENT_FOLDER/pkg/services/formatters/shell/deployments"
         ;;
     "yaml")
         echo "Language yaml not contains image on dockerhub!"

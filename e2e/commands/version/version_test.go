@@ -20,7 +20,7 @@ import (
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
 
-	"github.com/ZupIT/horusec/internal/utils/testutil"
+	"github.com/ZupIT/horusec/pkg/utils/testutil"
 )
 
 var _ = Describe("Run horusec CLI with version argument", func() {

@@ -22,7 +22,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/internal/helpers/messages"
+	"github.com/ZupIT/horusec/pkg/helpers/messages"
 )
 
 type Generate struct {

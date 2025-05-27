@@ -33,12 +33,12 @@ import (
 
 	"github.com/ZupIT/horusec/cmd/app/version"
 	"github.com/ZupIT/horusec/config/dist"
-	customimages "github.com/ZupIT/horusec/internal/entities/custom_images"
-	"github.com/ZupIT/horusec/internal/entities/toolsconfig"
-	"github.com/ZupIT/horusec/internal/entities/workdir"
-	"github.com/ZupIT/horusec/internal/helpers/messages"
-	jsonutils "github.com/ZupIT/horusec/internal/utils/json"
-	"github.com/ZupIT/horusec/internal/utils/valueordefault"
+	customimages "github.com/ZupIT/horusec/pkg/entities/custom_images"
+	"github.com/ZupIT/horusec/pkg/entities/toolsconfig"
+	"github.com/ZupIT/horusec/pkg/entities/workdir"
+	"github.com/ZupIT/horusec/pkg/helpers/messages"
+	jsonutils "github.com/ZupIT/horusec/pkg/utils/json"
+	"github.com/ZupIT/horusec/pkg/utils/valueordefault"
 )
 
 const (
