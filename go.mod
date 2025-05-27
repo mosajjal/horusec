@@ -7,7 +7,7 @@ require (
 	github.com/ZupIT/horusec-engine v1.0.2
 	github.com/bmatcuk/doublestar/v4 v4.8.1
 	github.com/briandowns/spinner v1.23.2
-	github.com/docker/docker v23.0.3+incompatible
+	github.com/docker/docker v20.10.9+incompatible
 	github.com/go-enry/go-enry/v2 v2.9.2
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/gocarina/gocsv v0.0.0-20240520201108-78e41c74b4b1
