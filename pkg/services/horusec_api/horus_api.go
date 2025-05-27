@@ -22,10 +22,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/cli"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/services/http/request"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/services/http/request/entities"
+	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	"github.com/ZupIT/horusec-devkit/pkg/entities/cli"
+	"github.com/ZupIT/horusec-devkit/pkg/services/http/request"
+	"github.com/ZupIT/horusec-devkit/pkg/services/http/request/entities"
 	"github.com/google/uuid"
 
 	"github.com/mosajjal/horusec/config"

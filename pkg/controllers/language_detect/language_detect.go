@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	"github.com/bmatcuk/doublestar/v4"
 	"github.com/go-enry/go-enry/v2"
 	"github.com/google/uuid"

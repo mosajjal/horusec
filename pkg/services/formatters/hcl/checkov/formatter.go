@@ -19,11 +19,11 @@ import (
 	"encoding/json"
 	"regexp"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 
 	"github.com/mosajjal/horusec/pkg/entities/docker"
 	"github.com/mosajjal/horusec/pkg/enums/images"

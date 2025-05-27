@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	entitiesAnalysis "github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	entitiesAnalysis "github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
 	"github.com/stretchr/testify/assert"
 
 	cliConfig "github.com/mosajjal/horusec/config"

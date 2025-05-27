@@ -15,7 +15,7 @@
 package testutil
 
 import (
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/services/http/request"
+	"github.com/ZupIT/horusec-devkit/pkg/services/http/request"
 )
 
 type RequestMock request.Mock

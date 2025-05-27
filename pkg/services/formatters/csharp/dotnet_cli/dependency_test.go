@@ -17,7 +17,7 @@ package dotnetcli
 import (
 	"testing"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
 	"github.com/stretchr/testify/assert"
 )
 

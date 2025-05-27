@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
-	vulnerabilityenum "github.com/github.com/ZupIT/horusec-devkit/pkg/enums/vulnerability"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	vulnerabilityenum "github.com/ZupIT/horusec-devkit/pkg/enums/vulnerability"
+	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 
 	"github.com/mosajjal/horusec/config"
 	"github.com/mosajjal/horusec/pkg/enums/outputtype"

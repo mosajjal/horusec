@@ -17,7 +17,7 @@ package workdir_test
 import (
 	"testing"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/mosajjal/horusec/pkg/entities/workdir"

@@ -18,8 +18,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	"github.com/stretchr/testify/assert"
 
 	customimages "github.com/mosajjal/horusec/pkg/entities/custom_images"

@@ -17,7 +17,7 @@ package formatters_test
 import (
 	"testing"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
 	engine "github.com/mosajjal/horusec-engine"
 	"github.com/stretchr/testify/assert"
 

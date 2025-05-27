@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 
 	"github.com/mosajjal/horusec/pkg/enums/images"
 	"github.com/mosajjal/horusec/pkg/helpers/messages"

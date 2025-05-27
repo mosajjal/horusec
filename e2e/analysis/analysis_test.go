@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	"github.com/google/uuid"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -27,8 +27,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/env"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/ZupIT/horusec-devkit/pkg/utils/env"
+	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	dockerTypesFilters "github.com/docker/docker/api/types/filters"

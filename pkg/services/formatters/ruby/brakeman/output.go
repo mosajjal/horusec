@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
 )
 
 const (

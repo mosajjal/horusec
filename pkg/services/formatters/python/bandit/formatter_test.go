@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	entitiesAnalysis "github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	enumHorusec "github.com/github.com/ZupIT/horusec-devkit/pkg/enums/analysis"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	entitiesAnalysis "github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	enumHorusec "github.com/ZupIT/horusec-devkit/pkg/enums/analysis"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 

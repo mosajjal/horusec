@@ -15,10 +15,10 @@
 package testutil
 
 import (
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
-	mockutils "github.com/github.com/ZupIT/horusec-devkit/pkg/utils/mock"
+	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	mockutils "github.com/ZupIT/horusec-devkit/pkg/utils/mock"
 	engine "github.com/mosajjal/horusec-engine"
 	"github.com/stretchr/testify/mock"
 

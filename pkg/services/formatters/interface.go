@@ -15,9 +15,9 @@
 package formatters
 
 import (
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
 	engine "github.com/mosajjal/horusec-engine"
 
 	"github.com/mosajjal/horusec/pkg/entities/docker"

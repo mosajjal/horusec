@@ -15,7 +15,7 @@
 package testutil
 
 import (
-	mockutils "github.com/github.com/ZupIT/horusec-devkit/pkg/utils/mock"
+	mockutils "github.com/ZupIT/horusec-devkit/pkg/utils/mock"
 	"github.com/stretchr/testify/mock"
 )
 

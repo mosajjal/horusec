@@ -18,7 +18,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 
 	"github.com/mosajjal/horusec/pkg/enums/images"
 )

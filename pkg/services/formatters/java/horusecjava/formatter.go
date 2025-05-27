@@ -15,7 +15,7 @@
 package horusecjava
 
 import (
-	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 
 	"github.com/mosajjal/horusec/pkg/services/engines/java"
 	"github.com/mosajjal/horusec/pkg/services/formatters"
