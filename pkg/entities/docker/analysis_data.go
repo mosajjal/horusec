@@ -20,7 +20,7 @@ import (
 
 	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 
-	"github.com/ZupIT/horusec/pkg/enums/images"
+	"github.com/mosajjal/horusec/pkg/enums/images"
 )
 
 // AnalysisData holds the image and command that will be used to start an

@@ -23,7 +23,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ZupIT/horusec/pkg/utils/copy"
+	"github.com/mosajjal/horusec/pkg/utils/copy"
 )
 
 // NormalizePathToAssert Returns path spaced to be compatible with Windows in e2e tests asserts.

@@ -25,8 +25,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	"github.com/onsi/gomega/gexec"
 
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )
 
 // Expected struct represents the validations that will be expected when comparing the final results of the analysis

@@ -23,7 +23,7 @@ import (
 
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
 )
 
 const (

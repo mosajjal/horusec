@@ -1,4 +1,4 @@
-module github.com/ZupIT/horusec
+module github.com/mosajjal/horusec
 
 go 1.17
 

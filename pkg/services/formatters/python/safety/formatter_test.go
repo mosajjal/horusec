@@ -28,12 +28,12 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	cliConfig "github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/pkg/entities/toolsconfig"
-	"github.com/ZupIT/horusec/pkg/entities/workdir"
-	"github.com/ZupIT/horusec/pkg/services/formatters"
-	"github.com/ZupIT/horusec/pkg/utils/copy"
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
+	cliConfig "github.com/mosajjal/horusec/config"
+	"github.com/mosajjal/horusec/pkg/entities/toolsconfig"
+	"github.com/mosajjal/horusec/pkg/entities/workdir"
+	"github.com/mosajjal/horusec/pkg/services/formatters"
+	"github.com/mosajjal/horusec/pkg/utils/copy"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )
 
 func getAnalysis() *entitiesAnalysis.Analysis {

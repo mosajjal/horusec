@@ -46,7 +46,7 @@ func ginkgoBuildHorusecBinary(customArgs ...string) string {
 	binary := filepath.Join(os.TempDir(), getBinaryNameBySystem())
 	args := []string{
 		"build",
-		`-ldflags=-X 'github.com/ZupIT/horusec/cmd/app/version.Version=vTest'`,
+		`-ldflags=-X 'github.com/mosajjal/horusec/cmd/app/version.Version=vTest'`,
 		fmt.Sprintf("-o=%s", binary), filepath.Join(RootPath, "cmd", "app"),
 	}
 	args = append(args, customArgs...)

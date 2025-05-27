@@ -19,9 +19,9 @@ builds:
     env: [ CGO_ENABLED=0 ]
     main: ./cmd/app/main.go
     ldflags:
-      - -X 'github.com/ZupIT/horusec/cmd/app/version.Version={{ .Env.CLI_VERSION }}'
-      - -X 'github.com/ZupIT/horusec/cmd/app/version.Commit={{ .Commit }}'
-      - -X 'github.com/ZupIT/horusec/cmd/app/version.Date={{ .Env.CURRENT_DATE }}'
+      - -X 'github.com/mosajjal/horusec/cmd/app/version.Version={{ .Env.CLI_VERSION }}'
+      - -X 'github.com/mosajjal/horusec/cmd/app/version.Commit={{ .Commit }}'
+      - -X 'github.com/mosajjal/horusec/cmd/app/version.Date={{ .Env.CURRENT_DATE }}'
       - -s -w
     goos:
       - linux
@@ -36,10 +36,10 @@ builds:
     env: [ CGO_ENABLED=0 ]
     main: ./cmd/app/main.go
     ldflags:
-      - -X 'github.com/ZupIT/horusec/cmd/app/version.Version={{ .Env.CLI_VERSION }}'
-      - -X 'github.com/ZupIT/horusec/cmd/app/version.Commit={{ .Commit }}'
-      - -X 'github.com/ZupIT/horusec/cmd/app/version.Date={{ .Env.CURRENT_DATE }}'
-      - -X 'github.com/ZupIT/horusec/config/dist.standAlone=true'
+      - -X 'github.com/mosajjal/horusec/cmd/app/version.Version={{ .Env.CLI_VERSION }}'
+      - -X 'github.com/mosajjal/horusec/cmd/app/version.Commit={{ .Commit }}'
+      - -X 'github.com/mosajjal/horusec/cmd/app/version.Date={{ .Env.CURRENT_DATE }}'
+      - -X 'github.com/mosajjal/horusec/config/dist.standAlone=true'
       - -s -w
     goos:
       - linux
@@ -95,7 +95,7 @@ release:
     ## Docker images
     - `docker pull horuszup/horusec-cli:{{ .Tag }}`
 
-    **Full Changelog**: https://github.com/ZupIT/horusec/compare/{{ .PreviousTag }}...{{ .Tag }}
+    **Full Changelog**: https://github.com/mosajjal/horusec/compare/{{ .PreviousTag }}...{{ .Tag }}
   extra_files:
     - glob: deployments/cosign.pub
 nfpms:

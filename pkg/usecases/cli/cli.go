@@ -29,11 +29,11 @@ import (
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
 
-	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/pkg/entities/workdir"
-	"github.com/ZupIT/horusec/pkg/enums/outputtype"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/services/git"
+	"github.com/mosajjal/horusec/config"
+	"github.com/mosajjal/horusec/pkg/entities/workdir"
+	"github.com/mosajjal/horusec/pkg/enums/outputtype"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/services/git"
 )
 
 // ValidateConfig validate if the fields from config has valid values.

@@ -34,10 +34,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/pkg/enums/outputtype"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
+	"github.com/mosajjal/horusec/config"
+	"github.com/mosajjal/horusec/pkg/enums/outputtype"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )
 
 type validateFn func(t *testing.T, tt testcase)

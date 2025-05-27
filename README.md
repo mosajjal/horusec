@@ -2,24 +2,24 @@
     <img src="assets/horusec_logo.png" alt="logo_header" width="65%" style="max-width:100%;"/></a></p>
 
 <p align="center">
-    <a href="https://github.com/ZupIT/horusec/releases" alt="version">
+    <a href="https://github.com/mosajjal/horusec/releases" alt="version">
         <img src="https://img.shields.io/github/v/release/ZupIT/horusec?label=version"/></a>
-    <a href="https://github.com/ZupIT/horusec/pulse" alt="activity">
+    <a href="https://github.com/mosajjal/horusec/pulse" alt="activity">
         <img src="https://img.shields.io/github/commit-activity/m/ZupIT/horusec?label=activity"/></a>
-    <a href="https://github.com/ZupIT/horusec/graphs/contributors" alt="contributors">
+    <a href="https://github.com/mosajjal/horusec/graphs/contributors" alt="contributors">
         <img src="https://img.shields.io/github/contributors/ZupIT/horusec?label=contributors"/></a>
-    <a href="https://github.com/ZupIT/horusec/actions/workflows/lint.yml" alt="lint">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Lint?label=lint"/></a>
-    <a href="https://github.com/ZupIT/horusec/actions/workflows/test.yml" alt="test">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Test?label=test"/></a>
-    <a href="https://github.com/ZupIT/horusec/actions/workflows/security.yml" alt="security">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Security?label=security"/></a>
-    <a href="https://github.com/ZupIT/horusec/actions/workflows/coverage.yml" alt="coverage">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Coverage?label=coverage"/></a>
-    <a href="https://github.com/ZupIT/horusec/actions/workflows/e2e.yml" alt="e2e">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/e2e?label=e2e"/></a>
-    <a href="https://github.com/ZupIT/horusec/actions/workflows/build.yaml" alt="build">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Build?label=build"/></a>
+    <a href="https://github.com/mosajjal/horusec/actions/workflows/lint.yml" alt="lint">
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Lint?label=lint"/></a>
+    <a href="https://github.com/mosajjal/horusec/actions/workflows/test.yml" alt="test">
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Test?label=test"/></a>
+    <a href="https://github.com/mosajjal/horusec/actions/workflows/security.yml" alt="security">
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Security?label=security"/></a>
+    <a href="https://github.com/mosajjal/horusec/actions/workflows/coverage.yml" alt="coverage">
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Coverage?label=coverage"/></a>
+    <a href="https://github.com/mosajjal/horusec/actions/workflows/e2e.yml" alt="e2e">
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/e2e?label=e2e"/></a>
+    <a href="https://github.com/mosajjal/horusec/actions/workflows/build.yaml" alt="build">
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Build?label=build"/></a>
     <a href="https://opensource.org/licenses/Apache-2.0" alt="license">
         <img src="https://img.shields.io/badge/license-Apache%202-blue"/></a>
     <a href="https://bestpractices.coreinfrastructure.org/projects/5146"><img src="https://bestpractices.coreinfrastructure.org/projects/5146/badge"></a>
@@ -83,7 +83,7 @@ make install
 or
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/master/deployments/scripts/install.sh | bash -s latest
+curl -fsSL https://raw.githubusercontent.com/mosajjal/horusec/master/deployments/scripts/install.sh | bash -s latest
 ```
 
 #### **Check the installation**
@@ -94,12 +94,12 @@ horusec version
 ### **Windows**
 - **amd64**
     ```sh
-    curl -k "https://github.com/ZupIT/horusec/releases/latest/download/horusec_win_amd64.exe" -o "./horusec.exe" -L
+    curl -k "https://github.com/mosajjal/horusec/releases/latest/download/horusec_win_amd64.exe" -o "./horusec.exe" -L
     ```
 
 - **arm64**
     ```sh
-    curl -k "https://github.com/ZupIT/horusec/releases/latest/download/horusec_win_arm64.exe" -o "./horusec.exe" -L
+    curl -k "https://github.com/mosajjal/horusec/releases/latest/download/horusec_win_arm64.exe" -o "./horusec.exe" -L
     ```
 
 #### **Check the installation**
@@ -109,7 +109,7 @@ horusec version
 
 ### **And more**
 
-- You can find all binaries with versions in our [**releases page**](https://github.com/ZupIT/horusec/releases).
+- You can find all binaries with versions in our [**releases page**](https://github.com/mosajjal/horusec/releases).
 
 - For more details on how to install, check out the [**documentation**](https://docs.horusec.io/docs/cli/installation) 
 
@@ -155,7 +155,7 @@ curl "https://horusec.io/bin/latest/win_x64/horusec.exe" -o "./horusec.exe" && .
 ```
 
 - The older binaries can be found at this endpoint, including the latest version of v1 **`v1.10.3`**. 
-- As of v2, binaries will no longer be distributed by this endpoint, and you can find in the [**releases page**](https://github.com/ZupIT/horusec/releases).
+- As of v2, binaries will no longer be distributed by this endpoint, and you can find in the [**releases page**](https://github.com/mosajjal/horusec/releases).
 
 ### **Using Horusec-Web application**
 Manage your vulnerabilities through our web interface. You can have a dashboard of metrics about your vulnerabilities, control of false positives, authorization token, update of vulnerabilities and much more.
@@ -236,7 +236,7 @@ Signed-off-by: Name < e-mail address >
 For this method, your name and e-mail must be the same registered on your GitHub account.
 
 ## **Code of Conduct**
-Please follow the [**Code of Conduct**](https://github.com/ZupIT/horusec/blob/main/CODE_OF_CONDUCT.md) in all your interactions with our project.
+Please follow the [**Code of Conduct**](https://github.com/mosajjal/horusec/blob/main/CODE_OF_CONDUCT.md) in all your interactions with our project.
 
 ## **License**
  [**Apache License 2.0**](LICENSE).
@@ -245,7 +245,7 @@ Please follow the [**Code of Conduct**](https://github.com/ZupIT/horusec/blob/ma
 
 Feel free to reach out to us at:
 
-- [**GitHub Issues**](https://github.com/ZupIT/horusec/issues)
+- [**GitHub Issues**](https://github.com/mosajjal/horusec/issues)
 - If you have any questions or ideas, let's chat in our [**Zup Open Source Forum**](https://forum.zup.com.br).
 
 

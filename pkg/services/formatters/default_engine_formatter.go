@@ -23,7 +23,7 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	engine "github.com/ZupIT/horusec-engine"
 
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
 )
 
 type RuleManager interface {

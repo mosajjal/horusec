@@ -24,7 +24,7 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )
 
 func TestNewDockerAPI(t *testing.T) {

@@ -22,7 +22,7 @@ import (
 	engine "github.com/ZupIT/horusec-engine"
 	"github.com/stretchr/testify/mock"
 
-	dockerentities "github.com/ZupIT/horusec/pkg/entities/docker"
+	dockerentities "github.com/mosajjal/horusec/pkg/entities/docker"
 )
 
 type FormatterMock struct {

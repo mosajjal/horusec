@@ -15,8 +15,8 @@
 package requirements
 
 import (
-	"github.com/ZupIT/horusec/pkg/controllers/requirements/docker"
-	"github.com/ZupIT/horusec/pkg/controllers/requirements/git"
+	"github.com/mosajjal/horusec/pkg/controllers/requirements/docker"
+	"github.com/mosajjal/horusec/pkg/controllers/requirements/git"
 )
 
 type ValidationFn func() error

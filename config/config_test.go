@@ -31,10 +31,10 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ZupIT/horusec/cmd/app/start"
-	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/pkg/entities/toolsconfig"
-	"github.com/ZupIT/horusec/pkg/entities/workdir"
+	"github.com/mosajjal/horusec/cmd/app/start"
+	"github.com/mosajjal/horusec/config"
+	"github.com/mosajjal/horusec/pkg/entities/toolsconfig"
+	"github.com/mosajjal/horusec/pkg/entities/workdir"
 )
 
 func TestMain(m *testing.M) {

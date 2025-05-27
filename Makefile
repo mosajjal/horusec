@@ -4,7 +4,7 @@ GO_FILES ?= $$(find . -name '*.go' | grep -v vendor | grep -v /examples/)
 GO_LIST_TO_TEST ?= $$(go list ./... | grep -v /examples/ | grep -v /e2e/)
 GOLANG_CI_LINT ?= golangci-lint
 GO_IMPORTS ?= goimports
-GO_IMPORTS_LOCAL ?= github.com/ZupIT/horusec/
+GO_IMPORTS_LOCAL ?= github.com/mosajjal/horusec/
 GO_FUMPT ?= gofumpt
 GO_GCI ?= gci
 ADDLICENSE ?= addlicense
@@ -108,31 +108,31 @@ build-install-cli-windows:
 
 build-install-stand-alone-cli-linux-amd64:
 	rm -rf "$(PATH_BINARY_BUILD_CLI)/horusec-linux-$(ARCH_AMD64)" &> /dev/null
-	CGO_ENABLED=0 GOOS=linux GOARCH=$(ARCH_AMD64) $(GO) build -ldflags "-X github.com/ZupIT/horusec/config/dist.standAlone=true" -a -installsuffix cgo -o "$(PATH_BINARY_BUILD_CLI)/horusec-linux-amd64" $(MAIN)
+	CGO_ENABLED=0 GOOS=linux GOARCH=$(ARCH_AMD64) $(GO) build -ldflags "-X github.com/mosajjal/horusec/config/dist.standAlone=true" -a -installsuffix cgo -o "$(PATH_BINARY_BUILD_CLI)/horusec-linux-amd64" $(MAIN)
 	chmod +x "$(PATH_BINARY_BUILD_CLI)/horusec-linux-$(ARCH_AMD64)"
 	horusec-linux-$(ARCH_AMD64) version
 
 build-install-stand-alone-cli-linux-arm64:
 	rm -rf "$(PATH_BINARY_BUILD_CLI)/horusec-linux-$(ARCH_ARM64)" &> /dev/null
-	CGO_ENABLED=0 GOOS=linux GOARCH=$(ARCH_ARM64) $(GO) build -ldflags "-X github.com/ZupIT/horusec/config/dist.standAlone=true" -a -installsuffix cgo -o "$(PATH_BINARY_BUILD_CLI)/horusec-linux-arm64" $(MAIN)
+	CGO_ENABLED=0 GOOS=linux GOARCH=$(ARCH_ARM64) $(GO) build -ldflags "-X github.com/mosajjal/horusec/config/dist.standAlone=true" -a -installsuffix cgo -o "$(PATH_BINARY_BUILD_CLI)/horusec-linux-arm64" $(MAIN)
 	chmod +x "$(PATH_BINARY_BUILD_CLI)/horusec-linux-$(ARCH_ARM64)"
 	horusec-linux-$(ARCH_ARM64) version
 
 build-install-stand-alone-cli-darwin-amd64:
 	rm -rf "$(PATH_BINARY_BUILD_CLI)/horusec-mac-$(ARCH_AMD64)" &> /dev/null
-	CGO_ENABLED=0 GOOS=darwin GOARCH=$(ARCH_ARM64) $(GO) build -ldflags "-X github.com/ZupIT/horusec/config/dist.standAlone=true" -a -installsuffix cgo -o "$(PATH_BINARY_BUILD_CLI)/horusec-mac" $(MAIN)
+	CGO_ENABLED=0 GOOS=darwin GOARCH=$(ARCH_ARM64) $(GO) build -ldflags "-X github.com/mosajjal/horusec/config/dist.standAlone=true" -a -installsuffix cgo -o "$(PATH_BINARY_BUILD_CLI)/horusec-mac" $(MAIN)
 	chmod +x "$(PATH_BINARY_BUILD_CLI)/horusec-mac-$(ARCH_AMD64)"
 	horusec-mac-$(ARCH_AMD64) version
 
 build-install-stand-alone-cli-darwin-arm64:
 	rm -rf "$(PATH_BINARY_BUILD_CLI)/horusec-mac-$(ARCH_ARM64)" &> /dev/null
-	CGO_ENABLED=0 GOOS=darwin GOARCH=$(ARCH_ARM64) $(GO) build -ldflags "-X github.com/ZupIT/horusec/config/dist.standAlone=true" -a -installsuffix cgo -o "$(PATH_BINARY_BUILD_CLI)/horusec-mac" $(MAIN)
+	CGO_ENABLED=0 GOOS=darwin GOARCH=$(ARCH_ARM64) $(GO) build -ldflags "-X github.com/mosajjal/horusec/config/dist.standAlone=true" -a -installsuffix cgo -o "$(PATH_BINARY_BUILD_CLI)/horusec-mac" $(MAIN)
 	chmod +x "$(PATH_BINARY_BUILD_CLI)/horusec-mac-arm64"
 	horusec-mac-$(ARCH_ARM64) version
 
 build-install-stand-alone-cli-windows:
 	rm -rf "$(PATH_BINARY_BUILD_CLI)/horusec-win.exe" &> /dev/null
-	env GOOS=windows GOARCH=amd64 $(GO) build -ldflags "-X github.com/ZupIT/horusec/config/dist.standAlone=true" -o "$(PATH_BINARY_BUILD_CLI)/horusec-win.exe" $(MAIN)
+	env GOOS=windows GOARCH=amd64 $(GO) build -ldflags "-X github.com/mosajjal/horusec/config/dist.standAlone=true" -o "$(PATH_BINARY_BUILD_CLI)/horusec-win.exe" $(MAIN)
 
 install:
 	./deployments/scripts/install.sh latest

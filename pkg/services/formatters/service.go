@@ -32,14 +32,14 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	engine "github.com/ZupIT/horusec-engine"
 
-	"github.com/ZupIT/horusec/config"
-	dockerentity "github.com/ZupIT/horusec/pkg/entities/docker"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	customrules "github.com/ZupIT/horusec/pkg/services/custom_rules"
-	"github.com/ZupIT/horusec/pkg/services/docker"
-	"github.com/ZupIT/horusec/pkg/services/git"
-	"github.com/ZupIT/horusec/pkg/utils/file"
-	vulnhash "github.com/ZupIT/horusec/pkg/utils/vuln_hash"
+	"github.com/mosajjal/horusec/config"
+	dockerentity "github.com/mosajjal/horusec/pkg/entities/docker"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	customrules "github.com/mosajjal/horusec/pkg/services/custom_rules"
+	"github.com/mosajjal/horusec/pkg/services/docker"
+	"github.com/mosajjal/horusec/pkg/services/git"
+	"github.com/mosajjal/horusec/pkg/utils/file"
+	vulnhash "github.com/mosajjal/horusec/pkg/utils/vuln_hash"
 )
 
 // MaxCharacters is the maximum length of code that a vulnerability can have.

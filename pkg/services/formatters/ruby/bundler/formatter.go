@@ -27,12 +27,12 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	"github.com/google/uuid"
 
-	dockerEntities "github.com/ZupIT/horusec/pkg/entities/docker"
-	"github.com/ZupIT/horusec/pkg/enums/images"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/services/formatters"
-	"github.com/ZupIT/horusec/pkg/utils/file"
-	vulnhash "github.com/ZupIT/horusec/pkg/utils/vuln_hash"
+	dockerEntities "github.com/mosajjal/horusec/pkg/entities/docker"
+	"github.com/mosajjal/horusec/pkg/enums/images"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/services/formatters"
+	"github.com/mosajjal/horusec/pkg/utils/file"
+	vulnhash "github.com/mosajjal/horusec/pkg/utils/vuln_hash"
 )
 
 // ErrGemLockNotFound occurs when project path does not have the Gemfile.lock file.

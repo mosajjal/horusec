@@ -37,10 +37,10 @@ import (
 	"github.com/google/uuid"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/pkg/entities/docker"
-	"github.com/ZupIT/horusec/pkg/enums/images"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/config"
+	"github.com/mosajjal/horusec/pkg/entities/docker"
+	"github.com/mosajjal/horusec/pkg/enums/images"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
 )
 
 // ErrImageTagCmdRequired occurs when an docker image or docker command is empty to start analysis.

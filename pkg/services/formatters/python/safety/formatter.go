@@ -27,13 +27,13 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 
-	dockerEntities "github.com/ZupIT/horusec/pkg/entities/docker"
-	"github.com/ZupIT/horusec/pkg/enums/images"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/services/formatters"
-	"github.com/ZupIT/horusec/pkg/services/formatters/python/safety/entities"
-	"github.com/ZupIT/horusec/pkg/utils/file"
-	vulnhash "github.com/ZupIT/horusec/pkg/utils/vuln_hash"
+	dockerEntities "github.com/mosajjal/horusec/pkg/entities/docker"
+	"github.com/mosajjal/horusec/pkg/enums/images"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/services/formatters"
+	"github.com/mosajjal/horusec/pkg/services/formatters/python/safety/entities"
+	"github.com/mosajjal/horusec/pkg/utils/file"
+	vulnhash "github.com/mosajjal/horusec/pkg/utils/vuln_hash"
 )
 
 type Formatter struct {

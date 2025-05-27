@@ -31,14 +31,14 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/ZupIT/horusec/cmd/app/version"
-	"github.com/ZupIT/horusec/config/dist"
-	customimages "github.com/ZupIT/horusec/pkg/entities/custom_images"
-	"github.com/ZupIT/horusec/pkg/entities/toolsconfig"
-	"github.com/ZupIT/horusec/pkg/entities/workdir"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	jsonutils "github.com/ZupIT/horusec/pkg/utils/json"
-	"github.com/ZupIT/horusec/pkg/utils/valueordefault"
+	"github.com/mosajjal/horusec/cmd/app/version"
+	"github.com/mosajjal/horusec/config/dist"
+	customimages "github.com/mosajjal/horusec/pkg/entities/custom_images"
+	"github.com/mosajjal/horusec/pkg/entities/toolsconfig"
+	"github.com/mosajjal/horusec/pkg/entities/workdir"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	jsonutils "github.com/mosajjal/horusec/pkg/utils/json"
+	"github.com/mosajjal/horusec/pkg/utils/valueordefault"
 )
 
 const (

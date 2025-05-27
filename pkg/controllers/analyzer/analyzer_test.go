@@ -38,11 +38,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/pkg/entities/workdir"
-	"github.com/ZupIT/horusec/pkg/services/docker"
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
-	vulnhash "github.com/ZupIT/horusec/pkg/utils/vuln_hash"
+	"github.com/mosajjal/horusec/config"
+	"github.com/mosajjal/horusec/pkg/entities/workdir"
+	"github.com/mosajjal/horusec/pkg/services/docker"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
+	vulnhash "github.com/mosajjal/horusec/pkg/utils/vuln_hash"
 )
 
 func BenchmarkAnalyzerAnalyze(b *testing.B) {

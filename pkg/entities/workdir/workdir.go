@@ -20,7 +20,7 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
 )
 
 // WorkDir represents the working directory for each language.

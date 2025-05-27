@@ -17,8 +17,8 @@ package kotlin
 import (
 	engine "github.com/ZupIT/horusec-engine"
 
-	"github.com/ZupIT/horusec/pkg/services/engines"
-	"github.com/ZupIT/horusec/pkg/services/engines/jvm"
+	"github.com/mosajjal/horusec/pkg/services/engines"
+	"github.com/mosajjal/horusec/pkg/services/engines/jvm"
 )
 
 func NewRules() *engines.RuleManager {

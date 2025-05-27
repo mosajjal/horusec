@@ -29,13 +29,13 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	"github.com/google/uuid"
 
-	"github.com/ZupIT/horusec/config"
-	languagedetect "github.com/ZupIT/horusec/pkg/controllers/language_detect"
-	"github.com/ZupIT/horusec/pkg/controllers/printresults"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/services/docker"
-	"github.com/ZupIT/horusec/pkg/services/docker/client"
-	horusec_api "github.com/ZupIT/horusec/pkg/services/horusec_api"
+	"github.com/mosajjal/horusec/config"
+	languagedetect "github.com/mosajjal/horusec/pkg/controllers/language_detect"
+	"github.com/mosajjal/horusec/pkg/controllers/printresults"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/services/docker"
+	"github.com/mosajjal/horusec/pkg/services/docker/client"
+	horusec_api "github.com/mosajjal/horusec/pkg/services/horusec_api"
 )
 
 // LanguageDetect is the interface that detect all languages in some directory.

@@ -25,7 +25,7 @@ import (
 	engine "github.com/ZupIT/horusec-engine"
 	"github.com/ZupIT/horusec-engine/text"
 
-	"github.com/ZupIT/horusec/config"
+	"github.com/mosajjal/horusec/config"
 )
 
 // Service represents the custom rule service responsible to

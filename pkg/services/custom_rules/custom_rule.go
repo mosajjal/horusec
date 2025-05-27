@@ -28,14 +28,14 @@ import (
 	"github.com/ZupIT/horusec-engine/text"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 
-	"github.com/ZupIT/horusec/pkg/services/engines/csharp"
-	"github.com/ZupIT/horusec/pkg/services/engines/dart"
-	"github.com/ZupIT/horusec/pkg/services/engines/java"
-	"github.com/ZupIT/horusec/pkg/services/engines/javascript"
-	"github.com/ZupIT/horusec/pkg/services/engines/kotlin"
-	"github.com/ZupIT/horusec/pkg/services/engines/kubernetes"
-	"github.com/ZupIT/horusec/pkg/services/engines/leaks"
-	"github.com/ZupIT/horusec/pkg/services/engines/nginx"
+	"github.com/mosajjal/horusec/pkg/services/engines/csharp"
+	"github.com/mosajjal/horusec/pkg/services/engines/dart"
+	"github.com/mosajjal/horusec/pkg/services/engines/java"
+	"github.com/mosajjal/horusec/pkg/services/engines/javascript"
+	"github.com/mosajjal/horusec/pkg/services/engines/kotlin"
+	"github.com/mosajjal/horusec/pkg/services/engines/kubernetes"
+	"github.com/mosajjal/horusec/pkg/services/engines/leaks"
+	"github.com/mosajjal/horusec/pkg/services/engines/nginx"
 )
 
 type CustomRule struct {
