@@ -17,21 +17,21 @@ package formatters_test
 import (
 	"testing"
 
-	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	engine "github.com/ZupIT/horusec-engine"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	engine "github.com/mosajjal/horusec-engine"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ZupIT/horusec/pkg/services/formatters"
-	"github.com/ZupIT/horusec/pkg/services/formatters/csharp/horuseccsharp"
-	"github.com/ZupIT/horusec/pkg/services/formatters/dart/horusecdart"
-	"github.com/ZupIT/horusec/pkg/services/formatters/java/horusecjava"
-	"github.com/ZupIT/horusec/pkg/services/formatters/javascript/horusecjavascript"
-	"github.com/ZupIT/horusec/pkg/services/formatters/kotlin/horuseckotlin"
-	"github.com/ZupIT/horusec/pkg/services/formatters/leaks/horusecleaks"
-	"github.com/ZupIT/horusec/pkg/services/formatters/nginx/horusecnginx"
-	"github.com/ZupIT/horusec/pkg/services/formatters/swift/horusecswift"
-	"github.com/ZupIT/horusec/pkg/services/formatters/yaml/horuseckubernetes"
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
+	"github.com/mosajjal/horusec/pkg/services/formatters"
+	"github.com/mosajjal/horusec/pkg/services/formatters/csharp/horuseccsharp"
+	"github.com/mosajjal/horusec/pkg/services/formatters/dart/horusecdart"
+	"github.com/mosajjal/horusec/pkg/services/formatters/java/horusecjava"
+	"github.com/mosajjal/horusec/pkg/services/formatters/javascript/horusecjavascript"
+	"github.com/mosajjal/horusec/pkg/services/formatters/kotlin/horuseckotlin"
+	"github.com/mosajjal/horusec/pkg/services/formatters/leaks/horusecleaks"
+	"github.com/mosajjal/horusec/pkg/services/formatters/nginx/horusecnginx"
+	"github.com/mosajjal/horusec/pkg/services/formatters/swift/horusecswift"
+	"github.com/mosajjal/horusec/pkg/services/formatters/yaml/horuseckubernetes"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )
 
 func TestStartAnalysis(t *testing.T) {

@@ -18,12 +18,12 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
-	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
-	engine "github.com/ZupIT/horusec-engine"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	engine "github.com/mosajjal/horusec-engine"
 
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
 )
 
 type RuleManager interface {

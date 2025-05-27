@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
 )
 
 type flawFinderResult struct {

@@ -17,10 +17,10 @@ package workdir_test
 import (
 	"testing"
 
-	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ZupIT/horusec/pkg/entities/workdir"
+	"github.com/mosajjal/horusec/pkg/entities/workdir"
 )
 
 func TestDefaultReturnEmptyWorkDir(t *testing.T) {

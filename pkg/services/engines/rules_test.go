@@ -17,20 +17,20 @@ package engines_test
 import (
 	"testing"
 
-	"github.com/ZupIT/horusec-engine/text"
+	"github.com/mosajjal/horusec-engine/text"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ZupIT/horusec/pkg/services/engines"
-	"github.com/ZupIT/horusec/pkg/services/engines/csharp"
-	"github.com/ZupIT/horusec/pkg/services/engines/dart"
-	"github.com/ZupIT/horusec/pkg/services/engines/java"
-	"github.com/ZupIT/horusec/pkg/services/engines/javascript"
-	"github.com/ZupIT/horusec/pkg/services/engines/kotlin"
-	"github.com/ZupIT/horusec/pkg/services/engines/kubernetes"
-	"github.com/ZupIT/horusec/pkg/services/engines/leaks"
-	"github.com/ZupIT/horusec/pkg/services/engines/nginx"
-	"github.com/ZupIT/horusec/pkg/services/engines/swift"
+	"github.com/mosajjal/horusec/pkg/services/engines"
+	"github.com/mosajjal/horusec/pkg/services/engines/csharp"
+	"github.com/mosajjal/horusec/pkg/services/engines/dart"
+	"github.com/mosajjal/horusec/pkg/services/engines/java"
+	"github.com/mosajjal/horusec/pkg/services/engines/javascript"
+	"github.com/mosajjal/horusec/pkg/services/engines/kotlin"
+	"github.com/mosajjal/horusec/pkg/services/engines/kubernetes"
+	"github.com/mosajjal/horusec/pkg/services/engines/leaks"
+	"github.com/mosajjal/horusec/pkg/services/engines/nginx"
+	"github.com/mosajjal/horusec/pkg/services/engines/swift"
 )
 
 func TestGetRules(t *testing.T) {

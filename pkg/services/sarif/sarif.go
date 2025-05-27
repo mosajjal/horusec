@@ -18,11 +18,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
 
-	"github.com/ZupIT/horusec/cmd/app/version"
+	"github.com/mosajjal/horusec/cmd/app/version"
 )
 
 type Sarif struct {

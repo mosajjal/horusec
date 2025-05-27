@@ -19,17 +19,17 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
-	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 
-	dockerEntities "github.com/ZupIT/horusec/pkg/entities/docker"
-	"github.com/ZupIT/horusec/pkg/enums/images"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/services/formatters"
-	"github.com/ZupIT/horusec/pkg/services/formatters/python/bandit/entities"
-	vulnhash "github.com/ZupIT/horusec/pkg/utils/vuln_hash"
+	dockerEntities "github.com/mosajjal/horusec/pkg/entities/docker"
+	"github.com/mosajjal/horusec/pkg/enums/images"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/services/formatters"
+	"github.com/mosajjal/horusec/pkg/services/formatters/python/bandit/entities"
+	vulnhash "github.com/mosajjal/horusec/pkg/utils/vuln_hash"
 )
 
 type Formatter struct {

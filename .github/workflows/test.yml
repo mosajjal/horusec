@@ -45,14 +45,14 @@ jobs:
           go-version: ${{ matrix.go-version }}
 
       - name: Setup docker for MacOS
-        if: ${{ matrix.os == 'macos-latest' }} 
+        if: ${{ matrix.os == 'macos-latest' }}
         uses: docker-practice/actions-setup-docker@v1
         with:
           docker_buildx: false
 
       - name: Download Examples repository
         run: |
-          git clone https://github.com/ZupIT/horusec-examples-vulnerabilities.git ../horusec-examples-vulnerabilities
+          git clone https://github.com/mosajjal/horusec-examples-vulnerabilities.git ../horusec-examples-vulnerabilities
 
       - name: test
         run: make test

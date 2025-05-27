@@ -19,8 +19,8 @@ import (
 	"os"
 	"testing"
 
-	engine "github.com/ZupIT/horusec-engine"
-	"github.com/ZupIT/horusec-engine/text"
+	engine "github.com/mosajjal/horusec-engine"
+	"github.com/mosajjal/horusec-engine/text"
 	"github.com/stretchr/testify/assert"
 )
 

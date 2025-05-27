@@ -19,18 +19,18 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
-	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 
-	"github.com/ZupIT/horusec/pkg/entities/docker"
-	"github.com/ZupIT/horusec/pkg/enums/images"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/services/formatters"
-	fileutils "github.com/ZupIT/horusec/pkg/utils/file"
-	vulnHash "github.com/ZupIT/horusec/pkg/utils/vuln_hash"
+	"github.com/mosajjal/horusec/pkg/entities/docker"
+	"github.com/mosajjal/horusec/pkg/enums/images"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/services/formatters"
+	fileutils "github.com/mosajjal/horusec/pkg/utils/file"
+	vulnHash "github.com/mosajjal/horusec/pkg/utils/vuln_hash"
 )
 
 var (
@@ -45,7 +45,7 @@ var (
 	// ErrInvalidSDKOutput occurs when SCS try to use an old version of csharp SDK to analyze a project with the new One
 	ErrInvalidSDKOutput = errors.New("horusec-engine-csharp SDK is outdated, " +
 		"you can build your own and add to horusecCliCustomImages config" +
-		" or create a new issue on https://github.com/ZupIT/horusec/issues to maintainers update the image")
+		" or create a new issue on https://github.com/mosajjal/horusec/issues to maintainers update the image")
 )
 
 const (

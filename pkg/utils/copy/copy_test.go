@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ZupIT/horusec/pkg/utils/copy"
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
+	"github.com/mosajjal/horusec/pkg/utils/copy"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )
 
 func TestCopy(t *testing.T) {

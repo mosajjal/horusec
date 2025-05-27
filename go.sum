@@ -93,8 +93,8 @@ github.com/Shopify/logrus-bugsnag v0.0.0-20171204204709-577dee27f20d/go.mod h1:H
 github.com/ZupIT/horusec-devkit v1.0.23/go.mod h1:01lg6tLZkqwJE/Nn8Prnq7bFjq9Agf4zwbuV47sxMno=
 github.com/ZupIT/horusec-devkit v1.0.24 h1:GGW6LyyvVvmN2+2/miPjOZ6E6BhE9k7Tw0rVcS+CaFM=
 github.com/ZupIT/horusec-devkit v1.0.24/go.mod h1:l1vuCb/lxyGZ8vIgW3EO5CS6aJUukGprD9UB6FwU16w=
-github.com/ZupIT/horusec-engine v1.0.1 h1:RGBsQAYRwOhVeuJGttgPBSgvPfGjOhnjWlgNvTkWAns=
-github.com/ZupIT/horusec-engine v1.0.1/go.mod h1:lamAoErjl0M3voYEr+J1T15Raw4BJdAaMM/wQCsvVlo=
+github.com/mosajjal/horusec-engine v1.0.1 h1:RGBsQAYRwOhVeuJGttgPBSgvPfGjOhnjWlgNvTkWAns=
+github.com/mosajjal/horusec-engine v1.0.1/go.mod h1:lamAoErjl0M3voYEr+J1T15Raw4BJdAaMM/wQCsvVlo=
 github.com/agiledragon/gomonkey/v2 v2.3.1/go.mod h1:ap1AmDzcVOAz1YpeJ3TCzIgstoaWLA6jbbgxfB4w2iY=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=

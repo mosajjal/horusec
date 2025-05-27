@@ -15,9 +15,9 @@
 package leaks
 
 import (
-	engine "github.com/ZupIT/horusec-engine"
+	engine "github.com/mosajjal/horusec-engine"
 
-	"github.com/ZupIT/horusec/pkg/services/engines"
+	"github.com/mosajjal/horusec/pkg/services/engines"
 )
 
 func NewRules() *engines.RuleManager {

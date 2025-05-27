@@ -24,10 +24,10 @@ This is Horusec contributing guide. Please read the following sections to learn 
 ## **Before you contribute**
 
 ### **Code of Conduct**
-Please follow the [**Code of Conduct**](https://github.com/ZupIT/horusec/blob/main/CODE_OF_CONDUCT.md) in all your interactions with our project.
+Please follow the [**Code of Conduct**](https://github.com/mosajjal/horusec/blob/main/CODE_OF_CONDUCT.md) in all your interactions with our project.
 
 ### **Legal**
-- Horusec is licensed over [**ASF - Apache License**](https://github.com/ZupIT/horusec/blob/main/LICENSE), version 2, so new files must have the ASF version 2 header. For more information, please check out [**Apache license**](https://www.apache.org/licenses/LICENSE-2.0).
+- Horusec is licensed over [**ASF - Apache License**](https://github.com/mosajjal/horusec/blob/main/LICENSE), version 2, so new files must have the ASF version 2 header. For more information, please check out [**Apache license**](https://www.apache.org/licenses/LICENSE-2.0).
 
 - All contributions are subject to the [**Developer Certificate of Origin (DCO)**](https://developercertificate.org). 
 When you commit, use the ```**-s** ``` option to include the Signed-off-by line at the end of the commit log message.
@@ -76,7 +76,7 @@ If you have a bug or an idea, check out the following sections before submitting
 
 #### **Check the issue tracker**
 
-All our issues are centralized in our main repository, it is quite likely that you will find a topic that is being discussed. Check the [**open issues**](https://github.com/ZupIT/horusec/issues), another good way to start is [**good first issues**](https://github.com/ZupIT/horusec/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+All our issues are centralized in our main repository, it is quite likely that you will find a topic that is being discussed. Check the [**open issues**](https://github.com/mosajjal/horusec/issues), another good way to start is [**good first issues**](https://github.com/mosajjal/horusec/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 Use the GitHub's search filter to help you. For example:
 
@@ -96,13 +96,13 @@ Writing a good issue will help our team better analyze and manage your contribut
 
 **Scope:** Add what your issue refers to:
 
-- **[Bug report](https://github.com/ZupIT/horusec/issues/new?assignees=&labels=bug&template=bug_report.md):** Create a report to help us improve
+- **[Bug report](https://github.com/mosajjal/horusec/issues/new?assignees=&labels=bug&template=bug_report.md):** Create a report to help us improve
 
-- **[Feature request](https://github.com/ZupIT/horusec/issues/new?assignees=&labels=feature&template=feature_request.md):** Suggest a new feature for a project
+- **[Feature request](https://github.com/mosajjal/horusec/issues/new?assignees=&labels=feature&template=feature_request.md):** Suggest a new feature for a project
 
-- **[Improvement](https://github.com/ZupIT/horusec/issues/new?assignees=&labels=improvement&template=improvement.md):** Suggest a improvement for a project
+- **[Improvement](https://github.com/mosajjal/horusec/issues/new?assignees=&labels=improvement&template=improvement.md):** Suggest a improvement for a project
 
-- **[Support request](https://github.com/ZupIT/horusec/issues/new?assignees=&labels=support&template=support_request.md):** Support request or question relating to Horusec
+- **[Support request](https://github.com/mosajjal/horusec/issues/new?assignees=&labels=support&template=support_request.md):** Support request or question relating to Horusec
 
 **Example: Horusec-cli:Improvement - Suggestion for CLI installation experience** 
 
@@ -172,16 +172,16 @@ Horusec has other repositories, check them below:
 
 - [**Charts**](https://github.com/ZupIT/charlescd/tree/main/circle-matcher)
 - [**Devkit**](https://github.com/ZupIT/horusec-devkit)
-- [**Engine**](https://github.com/ZupIT/horusec-engine)
-- [**Jenkins**](https://github.com/ZupIT/horusec-jenkins-sharedlib)
-- [**Operator**](https://github.com/ZupIT/horusec-operator)
-- [**Platform**](https://github.com/ZupIT/horusec-platform)
-- [**VSCode plugin**](https://github.com/ZupIT/horusec-vscode-plugin)
-- [**Kotlin**](https://github.com/ZupIT/horusec-tree-sitter-kotlin)
-- [**Vulnerabilities**](https://github.com/ZupIT/horusec-examples-vulnerabilities)
+- [**Engine**](https://github.com/mosajjal/horusec-engine)
+- [**Jenkins**](https://github.com/mosajjal/horusec-jenkins-sharedlib)
+- [**Operator**](https://github.com/mosajjal/horusec-operator)
+- [**Platform**](https://github.com/mosajjal/horusec-platform)
+- [**VSCode plugin**](https://github.com/mosajjal/horusec-vscode-plugin)
+- [**Kotlin**](https://github.com/mosajjal/horusec-tree-sitter-kotlin)
+- [**Vulnerabilities**](https://github.com/mosajjal/horusec-examples-vulnerabilities)
 
 ### **First contribution**
-Contributing to a new feature is only allowed in the [**main repository**](https://github.com/ZupIT/horusec).
+Contributing to a new feature is only allowed in the [**main repository**](https://github.com/mosajjal/horusec).
 
 Before contributing to this repository, please discuss the changes you wish to make via e-mail or [**forum**](https://forum.zup.com.br/c/en/horusec/14). 
 
@@ -191,10 +191,10 @@ If you want to add an improvement, a new feature or bug fix, follow the steps to
 **Step 1:** Make sure your branch is based on main;
 
 **Step 2:** When opening an issue, choose a template to answer the questions regarding what you want to contribute: 
-- [**Bug Report**](https://github.com/ZupIT/horusec/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
-- [**Feature request**](https://github.com/ZupIT/horusec/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
-- [**Improvement**](https://github.com/ZupIT/horusec/blob/main/.github/ISSUE_TEMPLATE/improvement.md)
-- [**Support request**](https://github.com/ZupIT/horusec/blob/main/.github/ISSUE_TEMPLATE/support_request.md)
+- [**Bug Report**](https://github.com/mosajjal/horusec/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
+- [**Feature request**](https://github.com/mosajjal/horusec/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
+- [**Improvement**](https://github.com/mosajjal/horusec/blob/main/.github/ISSUE_TEMPLATE/improvement.md)
+- [**Support request**](https://github.com/mosajjal/horusec/blob/main/.github/ISSUE_TEMPLATE/support_request.md)
 
 **Step 3:** Make your changes and open a GitHub pull request;
 

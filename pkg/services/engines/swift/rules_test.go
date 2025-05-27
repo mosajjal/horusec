@@ -18,9 +18,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	engine "github.com/ZupIT/horusec-engine"
+	engine "github.com/mosajjal/horusec-engine"
 
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )
 
 func TestRulesVulnerableCode(t *testing.T) {

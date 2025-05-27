@@ -1,4 +1,3 @@
-
 # Copyright 2021 ZUP IT SERVICOS EM TECNOLOGIA E INOVACAO SA
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,7 +49,7 @@ jobs:
 
       - name: Download Examples repository
         run: |
-          git clone https://github.com/ZupIT/horusec-examples-vulnerabilities.git ../horusec-examples-vulnerabilities
+          git clone https://github.com/mosajjal/horusec-examples-vulnerabilities.git ../horusec-examples-vulnerabilities
 
       - name: Setup docker for MacOS
         if: ${{ matrix.os == 'macos-latest' }}

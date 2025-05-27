@@ -21,8 +21,8 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	"github.com/spf13/cobra"
 
-	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/config"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
 )
 
 type Generate struct {

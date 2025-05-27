@@ -15,10 +15,10 @@
 package horuseckotlin
 
 import (
-	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 
-	"github.com/ZupIT/horusec/pkg/services/engines/kotlin"
-	"github.com/ZupIT/horusec/pkg/services/formatters"
+	"github.com/mosajjal/horusec/pkg/services/engines/kotlin"
+	"github.com/mosajjal/horusec/pkg/services/formatters"
 )
 
 func NewFormatter(service formatters.IService) formatters.IFormatter {

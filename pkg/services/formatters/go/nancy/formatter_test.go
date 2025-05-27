@@ -20,17 +20,17 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ZupIT/horusec/config"
-	"github.com/ZupIT/horusec/pkg/entities/toolsconfig"
-	"github.com/ZupIT/horusec/pkg/helpers/messages"
-	"github.com/ZupIT/horusec/pkg/services/formatters"
-	"github.com/ZupIT/horusec/pkg/utils/testutil"
+	"github.com/mosajjal/horusec/config"
+	"github.com/mosajjal/horusec/pkg/entities/toolsconfig"
+	"github.com/mosajjal/horusec/pkg/helpers/messages"
+	"github.com/mosajjal/horusec/pkg/services/formatters"
+	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )
 
 func TestParseOutput(t *testing.T) {
@@ -296,8 +296,8 @@ const output = `
             "InvalidSemVer":false
         },
         {
-            "Coordinates":"pkg:golang/github.com/ZupIT/horusec-engine@0.2.8",
-            "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/ZupIT/horusec-engine@0.2.8?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.29",
+            "Coordinates":"pkg:golang/github.com/mosajjal/horusec-engine@0.2.8",
+            "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/mosajjal/horusec-engine@0.2.8?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.29",
             "Vulnerabilities":[
                 
             ],

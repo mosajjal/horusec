@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
-	engine "github.com/ZupIT/horusec-engine"
-	"github.com/ZupIT/horusec-engine/text"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	engine "github.com/mosajjal/horusec-engine"
+	"github.com/mosajjal/horusec-engine/text"
 )
 
 func NewXMLParsingVulnerableToXXE() *text.Rule {

@@ -18,11 +18,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ZupIT/horusec/config"
-	customrules "github.com/ZupIT/horusec/pkg/services/custom_rules"
+	"github.com/mosajjal/horusec/config"
+	customrules "github.com/mosajjal/horusec/pkg/services/custom_rules"
 )
 
 func TestNewCustomRulesService(t *testing.T) {

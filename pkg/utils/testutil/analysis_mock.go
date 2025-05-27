@@ -17,17 +17,17 @@ package testutil
 import (
 	"time"
 
-	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
-	analysisenum "github.com/ZupIT/horusec-devkit/pkg/enums/analysis"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
-	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
-	vulnerabilityenum "github.com/ZupIT/horusec-devkit/pkg/enums/vulnerability"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
+	analysisenum "github.com/github.com/ZupIT/horusec-devkit/pkg/enums/analysis"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/languages"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/severities"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/enums/tools"
+	vulnerabilityenum "github.com/github.com/ZupIT/horusec-devkit/pkg/enums/vulnerability"
 	"github.com/google/uuid"
 
-	vulnhash "github.com/ZupIT/horusec/pkg/utils/vuln_hash"
+	vulnhash "github.com/mosajjal/horusec/pkg/utils/vuln_hash"
 )
 
 // CreateAnalysisMock creates a mocked plain entity to use in test suites.

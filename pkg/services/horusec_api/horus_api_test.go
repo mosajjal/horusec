@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	enumHorusec "github.com/ZupIT/horusec-devkit/pkg/enums/analysis"
+	"github.com/github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
+	enumHorusec "github.com/github.com/ZupIT/horusec-devkit/pkg/enums/analysis"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	cliConfig "github.com/ZupIT/horusec/config"
+	cliConfig "github.com/mosajjal/horusec/config"
 )
 
 var localhostCert = []byte(`-----BEGIN CERTIFICATE-----
