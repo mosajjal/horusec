@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/ZupIT/horusec-devkit/pkg/entities/analysis"
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/mosajjal/horusec/pkg/services/formatters"

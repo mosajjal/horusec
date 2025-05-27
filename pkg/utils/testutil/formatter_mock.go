@@ -19,7 +19,7 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
 	mockutils "github.com/ZupIT/horusec-devkit/pkg/utils/mock"
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 	"github.com/stretchr/testify/mock"
 
 	dockerentities "github.com/mosajjal/horusec/pkg/entities/docker"

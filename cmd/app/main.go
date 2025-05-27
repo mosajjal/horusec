@@ -17,7 +17,7 @@ package main
 import (
 	"os"
 
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 	"github.com/spf13/cobra"
 
 	"github.com/mosajjal/horusec/cmd/app/generate"

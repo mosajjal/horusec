@@ -30,7 +30,7 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
 	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 
 	"github.com/mosajjal/horusec/config"
 	dockerentity "github.com/mosajjal/horusec/pkg/entities/docker"

@@ -15,7 +15,7 @@
 package engines
 
 import (
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 )
 
 // RuleManager is a generic implementation of formatters.RuleManager

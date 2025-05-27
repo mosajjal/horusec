@@ -18,7 +18,7 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/entities/vulnerability"
 	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 
 	"github.com/mosajjal/horusec/pkg/entities/docker"
 )

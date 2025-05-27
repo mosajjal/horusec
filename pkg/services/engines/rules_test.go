@@ -17,7 +17,7 @@ package engines_test
 import (
 	"testing"
 
-	"github.com/mosajjal/horusec-engine/text"
+	"github.com/ZupIT/horusec-engine/text"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

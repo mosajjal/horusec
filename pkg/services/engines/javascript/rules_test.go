@@ -18,7 +18,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 
 	"github.com/mosajjal/horusec/pkg/utils/testutil"
 )

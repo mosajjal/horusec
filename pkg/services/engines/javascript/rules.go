@@ -19,8 +19,8 @@ import (
 
 	"github.com/ZupIT/horusec-devkit/pkg/enums/confidence"
 	"github.com/ZupIT/horusec-devkit/pkg/enums/severities"
-	engine "github.com/mosajjal/horusec-engine"
-	"github.com/mosajjal/horusec-engine/text"
+	engine "github.com/ZupIT/horusec-engine"
+	"github.com/ZupIT/horusec-engine/text"
 )
 
 func NewNoLogSensitiveInformationInConsole() *text.Rule {

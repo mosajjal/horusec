@@ -31,7 +31,7 @@ import (
 	"github.com/ZupIT/horusec-devkit/pkg/enums/tools"
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
 	"github.com/google/uuid"
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

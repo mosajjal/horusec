@@ -15,7 +15,7 @@
 package leaks
 
 import (
-	engine "github.com/mosajjal/horusec-engine"
+	engine "github.com/ZupIT/horusec-engine"
 
 	"github.com/mosajjal/horusec/pkg/services/engines"
 )

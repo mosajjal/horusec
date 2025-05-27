@@ -22,8 +22,8 @@ import (
 
 	"github.com/ZupIT/horusec-devkit/pkg/enums/languages"
 	"github.com/ZupIT/horusec-devkit/pkg/utils/logger"
-	engine "github.com/mosajjal/horusec-engine"
-	"github.com/mosajjal/horusec-engine/text"
+	engine "github.com/ZupIT/horusec-engine"
+	"github.com/ZupIT/horusec-engine/text"
 
 	"github.com/mosajjal/horusec/config"
 )

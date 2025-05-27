@@ -172,7 +172,7 @@ Horusec has other repositories, check them below:
 
 - [**Charts**](https://github.com/ZupIT/charlescd/tree/main/circle-matcher)
 - [**Devkit**](https://github.com/ZupIT/horusec-devkit)
-- [**Engine**](https://github.com/mosajjal/horusec-engine)
+- [**Engine**](https://github.com/ZupIT/horusec-engine)
 - [**Jenkins**](https://github.com/mosajjal/horusec-jenkins-sharedlib)
 - [**Operator**](https://github.com/mosajjal/horusec-operator)
 - [**Platform**](https://github.com/mosajjal/horusec-platform)

@@ -194,7 +194,7 @@ Horusec has other repositories, check them out:
 
 - [**Horusec Platform**](https://github.com/mosajjal/horusec-platform)
 - [**Horusec DevKit**](https://github.com/ZupIT/horusec-devkit)
-- [**Horusec Engine**](https://github.com/mosajjal/horusec-engine)
+- [**Horusec Engine**](https://github.com/ZupIT/horusec-engine)
 - [**Horusec Operator**](https://github.com/mosajjal/horusec-operator)
 - [**Horusec VsCode**](https://github.com/mosajjal/horusec-vscode-plugin)
 

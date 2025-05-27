@@ -296,8 +296,8 @@ const output = `
             "InvalidSemVer":false
         },
         {
-            "Coordinates":"pkg:golang/github.com/mosajjal/horusec-engine@0.2.8",
-            "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/mosajjal/horusec-engine@0.2.8?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.29",
+            "Coordinates":"pkg:golang/github.com/ZupIT/horusec-engine@0.2.8",
+            "Reference":"https://ossindex.sonatype.org/component/pkg:golang/github.com/ZupIT/horusec-engine@0.2.8?utm_source=nancy-client\u0026utm_medium=integration\u0026utm_content=1.0.29",
             "Vulnerabilities":[
                 
             ],
