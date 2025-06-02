@@ -36,7 +36,7 @@ jobs:
 
       - name: Download Examples repository
         run: |
-          git clone https://github.com/ZupIT/horusec-examples-vulnerabilities.git ../horusec-examples-vulnerabilities
+          git clone https://github.com/mosajjal/horusec-examples-vulnerabilities.git ../horusec-examples-vulnerabilities
 
       - name: coverage
         run: make coverage

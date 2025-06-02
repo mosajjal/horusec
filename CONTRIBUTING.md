@@ -173,15 +173,15 @@ Horusec has other repositories, check them below:
 - [**Charts**](https://github.com/ZupIT/charlescd/tree/main/circle-matcher)
 - [**Devkit**](https://github.com/ZupIT/horusec-devkit)
 - [**Engine**](https://github.com/ZupIT/horusec-engine)
-- [**Jenkins**](https://github.com/ZupIT/horusec-jenkins-sharedlib)
-- [**Operator**](https://github.com/ZupIT/horusec-operator)
-- [**Platform**](https://github.com/ZupIT/horusec-platform)
-- [**VSCode plugin**](https://github.com/ZupIT/horusec-vscode-plugin)
-- [**Kotlin**](https://github.com/ZupIT/horusec-tree-sitter-kotlin)
-- [**Vulnerabilities**](https://github.com/ZupIT/horusec-examples-vulnerabilities)
+- [**Jenkins**](https://github.com/mosajjal/horusec-jenkins-sharedlib)
+- [**Operator**](https://github.com/mosajjal/horusec-operator)
+- [**Platform**](https://github.com/mosajjal/horusec-platform)
+- [**VSCode plugin**](https://github.com/mosajjal/horusec-vscode-plugin)
+- [**Kotlin**](https://github.com/mosajjal/horusec-tree-sitter-kotlin)
+- [**Vulnerabilities**](https://github.com/mosajjal/horusec-examples-vulnerabilities)
 
 ### **First contribution**
-Contributing to a new feature is only allowed in the [**main repository**](https://github.com/ZupIT/horusec).
+Contributing to a new feature is only allowed in the [**main repository**](https://github.com/mosajjal/horusec).
 
 Before contributing to this repository, please discuss the changes you wish to make via e-mail or [**forum**](https://forum.zup.com.br/c/en/horusec/14). 
 

@@ -159,7 +159,7 @@ curl "https://horusec.io/bin/latest/win_x64/horusec.exe" -o "./horusec.exe" && .
 
 ### **Using Horusec-Web application**
 Manage your vulnerabilities through our web interface. You can have a dashboard of metrics about your vulnerabilities, control of false positives, authorization token, update of vulnerabilities and much more.
-See the [**web application**](https://github.com/ZupIT/horusec-platform) section to keep reading about it.
+See the [**web application**](https://github.com/mosajjal/horusec-platform) section to keep reading about it.
 
 Check out the example below, it is sending an analysis to Horusec web services:
 ```bash
@@ -168,7 +168,7 @@ horusec start -p <PATH_TO_YOUR_PROJECT> -a <YOUR_AUTHORIZATION_TOKEN>
 
 Check out [**the tutorial on how to create an authorization token through Horusec Manager Web Service**](https://docs.horusec.io/docs/tutorials/how-to-create-an-authorization-token).
 
-**WARNING:** Our web services was moved to a [**new repository**](https://github.com/ZupIT/horusec-platform). You need to upgrade to v2, check out [**how to migrate from v1 to v2**](https://docs.horusec.io/docs/migrate-v1-to-v2).
+**WARNING:** Our web services was moved to a [**new repository**](https://github.com/mosajjal/horusec-platform). You need to upgrade to v2, check out [**how to migrate from v1 to v2**](https://docs.horusec.io/docs/migrate-v1-to-v2).
 
 ### **Using Visual Studio Code**
 You can analyze your project using Horusec's Visual Studio Code extension.
@@ -192,11 +192,11 @@ We have a project [**roadmap**](ROADMAP.md), you can contribute with us!
 
 Horusec has other repositories, check them out:
 
-- [**Horusec Platform**](https://github.com/ZupIT/horusec-platform)
+- [**Horusec Platform**](https://github.com/mosajjal/horusec-platform)
 - [**Horusec DevKit**](https://github.com/ZupIT/horusec-devkit)
 - [**Horusec Engine**](https://github.com/ZupIT/horusec-engine)
-- [**Horusec Operator**](https://github.com/ZupIT/horusec-operator)
-- [**Horusec VsCode**](https://github.com/ZupIT/horusec-vscode-plugin)
+- [**Horusec Operator**](https://github.com/mosajjal/horusec-operator)
+- [**Horusec VsCode**](https://github.com/mosajjal/horusec-vscode-plugin)
 
 ## **Contributing**
 

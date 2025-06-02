@@ -2,8 +2,6 @@ module github.com/mosajjal/horusec
 
 go 1.23.0
 
-toolchain go1.24.3
-
 require (
 	github.com/ZupIT/horusec-devkit v1.0.24
 	github.com/ZupIT/horusec-engine v1.0.2
@@ -62,7 +60,7 @@ require (
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/sagikazarmark/locafero v0.9.0 // indirect
+	github.com/sagikazarmark/locafero v0.7.0 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.14.0 // indirect
 	github.com/spf13/cast v1.8.0 // indirect

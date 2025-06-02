@@ -6,7 +6,7 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 ### Functionalities we currently have
 
-<details><summary><a href="https://github.com/ZupIT/horusec" alt="license">CLI</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec" alt="license">CLI</a></summary><br>
 
 - Download binaries for Arm and AMD processor architecture
 - Locally vulnerability analysis via command-line interface
@@ -34,7 +34,7 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-platform" alt="license">Web Platform</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-platform" alt="license">Web Platform</a></summary><br>
 
 - Facilitated installation via horusec-operator
 - Installation via Charts Kubbernetes
@@ -56,7 +56,7 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-vscode-plugin" alt="license">Plugin to Visual Studio Code</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-vscode-plugin" alt="license">Plugin to Visual Studio Code</a></summary><br>
 
 - All CLI settings options within VSCODE
 - Dynamic loading when analysis is being executed
@@ -67,7 +67,7 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 ### Functionality that is feasible and we want to have
 
 
-<details><summary><a href="https://github.com/ZupIT/horusec" alt="license">CLI</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec" alt="license">CLI</a></summary><br>
 
 - Semantic Analysis JavaScript
 - Semantic analysis Java
@@ -86,7 +86,7 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-platform" alt="license">Web Platform</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-platform" alt="license">Web Platform</a></summary><br>
 
 - Integration to any code analysis tool (Gitchuardian, Snik, etc ...)
 - Dashboard to accompany companies and cases of vulnerability
@@ -102,7 +102,7 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-vscode-plugin" alt="license">Plugin to Visual Studio Code</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-vscode-plugin" alt="license">Plugin to Visual Studio Code</a></summary><br>
 
 - Use via Docker or Binary
 - Project Code Architecture Mapping
@@ -110,19 +110,19 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-intellij-plugin" alt="license">Plugin to IntelliJ</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-intellij-plugin" alt="license">Plugin to IntelliJ</a></summary><br>
 
 - Creation and availability of the plugin for Intellij IDE
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-visual-studio-plugin" alt="license">Plugin to Visual Studio</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-visual-studio-plugin" alt="license">Plugin to Visual Studio</a></summary><br>
 
 - Creating and availability of the plugin for Visual Studio IDE
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-android-studio-plugin" alt="license">Plugin to Android Studio</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-android-studio-plugin" alt="license">Plugin to Android Studio</a></summary><br>
 
 - Creation and availability of the plugin for IDE Android Studio
 
@@ -130,7 +130,7 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 ### Functionality that are our dream in having, but we do not know how to do
 
-<details><summary><a href="https://github.com/ZupIT/horusec" alt="license">CLI</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec" alt="license">CLI</a></summary><br>
 
 - DAST (Dynamic Application Security Test)
 - A simple model to include new market tools without needing to move in source code
@@ -142,7 +142,7 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-platform" alt="license">Web Platform</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-platform" alt="license">Web Platform</a></summary><br>
 
 - Dashboard following previous behaviors to predict new types of incidents and anticipate our action with Horusec using IA
 - Grouper of the most common security problems in my application
@@ -150,13 +150,13 @@ Our planning focused on the Open Source product and considered a twelve-month vi
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-vscode-plugin" alt="license">Plugin to Visual Studio Code</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-vscode-plugin" alt="license">Plugin to Visual Studio Code</a></summary><br>
 
 - Include design of the project architecture as well as fortify does to demonstrate why that is a vulnerability.
 
 </details>
 
-<details><summary><a href="https://github.com/ZupIT/horusec-playground" alt="license">Horusec Playground</a></summary><br>
+<details><summary><a href="https://github.com/mosajjal/horusec-playground" alt="license">Horusec Playground</a></summary><br>
 
 - Include a format that the user can test the horusec on a site without having to download
 
