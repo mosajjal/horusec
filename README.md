@@ -9,17 +9,17 @@
     <a href="https://github.com/mosajjal/horusec/graphs/contributors" alt="contributors">
         <img src="https://img.shields.io/github/contributors/ZupIT/horusec?label=contributors"/></a>
     <a href="https://github.com/mosajjal/horusec/actions/workflows/lint.yml" alt="lint">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Lint?label=lint"/></a>
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Lint?label=lint"/></a>
     <a href="https://github.com/mosajjal/horusec/actions/workflows/test.yml" alt="test">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Test?label=test"/></a>
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Test?label=test"/></a>
     <a href="https://github.com/mosajjal/horusec/actions/workflows/security.yml" alt="security">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Security?label=security"/></a>
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Security?label=security"/></a>
     <a href="https://github.com/mosajjal/horusec/actions/workflows/coverage.yml" alt="coverage">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Coverage?label=coverage"/></a>
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Coverage?label=coverage"/></a>
     <a href="https://github.com/mosajjal/horusec/actions/workflows/e2e.yml" alt="e2e">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/e2e?label=e2e"/></a>
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/e2e?label=e2e"/></a>
     <a href="https://github.com/mosajjal/horusec/actions/workflows/build.yaml" alt="build">
-        <img src="https://img.shields.io/github/workflow/status/ZupIT/horusec/Build?label=build"/></a>
+        <img src="https://img.shields.io/github/workflow/status/mosajjal/horusec/Build?label=build"/></a>
     <a href="https://opensource.org/licenses/Apache-2.0" alt="license">
         <img src="https://img.shields.io/badge/license-Apache%202-blue"/></a>
     <a href="https://bestpractices.coreinfrastructure.org/projects/5146"><img src="https://bestpractices.coreinfrastructure.org/projects/5146/badge"></a>
@@ -83,7 +83,7 @@ make install
 or
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/master/deployments/scripts/install.sh | bash -s latest
+curl -fsSL https://raw.githubusercontent.com/mosajjal/horusec/master/deployments/scripts/install.sh | bash -s latest
 ```
 
 #### **Check the installation**
